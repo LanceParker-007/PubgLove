@@ -1,0 +1,162 @@
+body
+{
+    padding: 0;
+    margin: 0;
+    background-color: #393e46;
+    text-align: center;
+}
+/* -----------------Navbar------------------ */
+
+.nav-icon
+{
+    margin-right: 30px;
+    color: #fff;
+}
+
+.nav-icon:hover
+{
+    color: orange;
+    cursor: pointer;
+}
+
+/* ---------------Banner-Images---------------- */
+
+.banner_title
+{
+    position: absolute;
+    top: 19%;
+    right: 2%;
+    width: 60%;
+    z-index: 100;
+    text-align: right;
+}
+
+.banner_title img 
+{
+    max-width: 80%;
+}
+
+@media screen and (max-width: 1024px) 
+{
+    .banner_title
+    {
+        top: 13%;
+        width: 100%;
+        right:0%;
+        text-align: center;
+    }
+
+    .banner_title img 
+    {
+        max-width: 75%;
+    }
+}
+
+/* -------------------Middle container-------------- */
+
+.middle-container
+{
+    background-color: #222831;
+    text-align: center;
+    padding: 50px 50px;
+}
+
+.btn-middle 
+{
+    color: #fff;
+    background-color: black;
+}
+
+/* -----------Tesimonials--------------------- */
+#testimonial
+{
+    padding: 5% 10%;
+    text-align: center;
+}
+
+.testimonial-p
+{
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 3rem;
+}
+
+.tes-col
+{
+    text-align: left;
+    padding: 3% 2%;
+}
+
+.btn-testimonial
+{
+    background-color: #000000;
+    color: white;
+    font-size: 1.5rem;
+    padding: 1rem;
+    border-radius: 50%;
+    border-style: none;
+    margin-right: 10px;
+}
+
+.btn-testimonial:hover
+{
+    background-color: orange;
+    cursor: pointer;
+}
+
+/* .dis-img:hover
+{
+    opacity: .5;
+} */
+
+@media (min-width: 768px) 
+{
+    .dis-img
+{
+    /* filter: url(filters.svg#grayscale); Firefox 3.5+ */
+    filter: gray; /* IE5+ */
+    -webkit-filter: grayscale(1); /* Webkit Nightlies & Chrome Canary */
+    -webkit-transition: all .8s ease-in-out;  
+}
+
+.dis-img:hover 
+{ 
+    filter: none;
+    -webkit-filter: grayscale(0);
+    -webkit-transform: scale(1.01);
+}
+}
+
+
+.card-text
+{
+    font-family:'Teko' ,'Oswald', sans-serif;
+}
+/*-----------------Bottom-Container-------------- */
+
+.footer 
+{
+    background-color: #222831;
+    text-align: center;
+    padding: 1% 2%;
+    color: #fff;
+}
+
+/* <----------js Button----------> */
+.jsButton
+{
+    padding: 15px 100px;
+    color: gray;
+    border-color: gray;
+}
+
+.jsButton:hover
+{
+    cursor: pointer;
+    color: black;
+}
+
+.hiddenRow
+{
+    visibility: hidden;
+    position: fixed;
+}

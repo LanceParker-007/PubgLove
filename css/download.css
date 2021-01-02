@@ -1,0 +1,22 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+
+nav
+{
+    background-color: #2a363b;
+    font-family:'Teko' ,'Oswald', sans-serif;
+    font-size: 2rem; 
+    color: #fff;
+}
+
+#main
+{
+    height: 100vh;
+    text-align: center;
+    font-family: 'Special Elite', cursive;
+    font-size: 3rem;
+    background-color: #155263;
+}
