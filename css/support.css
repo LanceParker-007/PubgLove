@@ -1,0 +1,34 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    height: 100vh;
+}
+
+h1
+{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.error-svg
+{
+    width: 31.25rem;
+}
+
+.btn
+{
+    font-size: 30px;
+    padding: 20px 40px;
+    background-color: white;
+    color: gray;
+    border-color: solid gray;
+}
+
+.btn:hover
+{
+    background-color: rgb(228, 153, 15);
+    border-color: solid black;
+    color: black;
+    cursor: pointer;
+}
