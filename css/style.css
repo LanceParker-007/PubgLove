@@ -146,13 +146,15 @@ body
 {
     padding: 15px 100px;
     color: gray;
-    border-color: gray;
+    border-color: solid gray;
+    border-style: none;
 }
 
 .jsButton:hover
 {
     cursor: pointer;
     color: black;
+    border-color: solid black;
 }
 
 .hiddenRow
